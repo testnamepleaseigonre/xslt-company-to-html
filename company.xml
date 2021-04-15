@@ -1,160 +1,311 @@
-<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+
 <company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="company.xsd">
-	<companyName>BMW</companyName>
+	<company-name>BMW</company-name>
 	<adress>Ozo g. 10A</adress>
 	<city>Vilnius</city>
-	<url_adress>https://www.bmw.lt/lt/index.html</url_adress>
+	<url-adress>https://www.bmw.lt/lt/index.html</url-adress>
 	<tel>(8 5) 274 0210</tel>
 	<vehicles>
 		<car>
-			<model>BMW X5</model>
-			<date_of_manufacture>2008-01</date_of_manufacture>
-			<price>10800</price>
-			<engine>3.0l</engine>
-			<hp>235</hp>
-			<fuel_type>diesel</fuel_type>
+			<model-name>BMW X5</model-name>
+			<date-of-manufacture>2008-01</date-of-manufacture>
+			<price>
+				<cost-number>10800</cost-number>
+				<cost-unit>€</cost-unit>
+			</price>
+			<engine-volume>
+				<engine-volume-number>3.0</engine-volume-number>
+				<engine-volume-unit-short>l</engine-volume-unit-short>
+			</engine-volume>
+			<engine-power>
+				<power-number>235</power-number>
+				<power-unit-short>hp</power-unit-short>
+			</engine-power>
+			<fuel-type>diesel</fuel-type>
 			<gearbox>automatic</gearbox>
-			<mileage>349256km</mileage>
-			<body_type>SUV / off-road</body_type>
-			<number_of_doors>4/5</number_of_doors>
-			<steering_wheel>LHD</steering_wheel>
-			<mot_expiry>2022-03</mot_expiry>
-			<co2_emision>~231 g/km</co2_emision>
+			<mileage>
+				<mileage-number>349256</mileage-number>
+				<mileage-unit-short>km</mileage-unit-short>
+			</mileage>
+			<body-type>SUV / off-road</body-type>
+			<number-of-doors>4/5</number-of-doors>
+			<steering-wheel-side>LHD</steering-wheel-side>
+			<mot-expiry-date>2022-03</mot-expiry-date>
+			<co2-emission>
+				<emission-number>231</emission-number>
+				<emission-unit>g/km</emission-unit>
+			</co2-emission>
 		</car>
 		<car>
-			<model>BMW 428</model>
-			<date_of_manufacture>2014-10</date_of_manufacture>
-			<price>14999</price>
-			<engine>2.0l</engine>
-			<hp>245</hp>
-			<fuel_type>petrol</fuel_type>
+			<model-name>BMW 428</model-name>
+			<date-of-manufacture>2014-10</date-of-manufacture>
+			<price>
+				<cost-number>14999</cost-number>
+				<cost-unit>€</cost-unit>
+			</price>
+			<engine-volume>
+				<engine-volume-number>2.0</engine-volume-number>
+				<engine-volume-unit-short>l</engine-volume-unit-short>
+			</engine-volume>
+			<engine-power>
+				<power-number>245</power-number>
+				<power-unit-short>hp</power-unit-short>
+			</engine-power>
+			<fuel-type>petrol</fuel-type>
 			<gearbox>automatic</gearbox>
-			<mileage>157342km</mileage>
-			<body_type>coupe</body_type>
-			<number_of_doors>2/3</number_of_doors>
-			<steering_wheel>LHD</steering_wheel>
-			<mot_expiry>2021-08</mot_expiry>
-			<co2_emision>~158 g/km</co2_emision>
+			<mileage>
+				<mileage-number>157342</mileage-number>
+				<mileage-unit-short>km</mileage-unit-short>
+			</mileage>
+			<body-type>coupe</body-type>
+			<number-of-doors>2/3</number-of-doors>
+			<steering-wheel-side>LHD</steering-wheel-side>
+			<mot-expiry-date>2021-08</mot-expiry-date>
+			<co2-emission>
+				<emission-number>158</emission-number>
+				<emission-unit>g/km</emission-unit>
+			</co2-emission>
 		</car>
 		<car>
-			<model>BMW 520</model>
-			<date_of_manufacture>2013-07</date_of_manufacture>
-			<price>14690</price>
-			<engine>2.0l</engine>
-			<hp>184</hp>
-			<fuel_type>diesel</fuel_type>
+			<model-name>BMW 520</model-name>
+			<date-of-manufacture>2013-07</date-of-manufacture>
+			<price>
+				<cost-number>14690</cost-number>
+				<cost-unit>€</cost-unit>
+			</price>
+			<engine-volume>
+				<engine-volume-number>2.0</engine-volume-number>
+				<engine-volume-unit-short>l</engine-volume-unit-short>
+			</engine-volume>
+			<engine-power>
+				<power-number>184</power-number>
+				<power-unit-short>hp</power-unit-short>
+			</engine-power>
+			<fuel-type>diesel</fuel-type>
 			<gearbox>automatic</gearbox>
-			<mileage>199981km</mileage>
-			<body_type>sedan</body_type>
-			<number_of_doors>4/5</number_of_doors>
-			<steering_wheel>LHD</steering_wheel>
-			<mot_expiry>2022-11</mot_expiry>
-			<co2_emision>~129 g/km</co2_emision>
+			<mileage>
+				<mileage-number>199981</mileage-number>
+				<mileage-unit-short>km</mileage-unit-short>
+			</mileage>
+			<body-type>sedan</body-type>
+			<number-of-doors>4/5</number-of-doors>
+			<steering-wheel-side>LHD</steering-wheel-side>
+			<mot-expiry-date>2022-11</mot-expiry-date>
+			<co2-emission>
+				<emission-number>129</emission-number>
+				<emission-unit>g/km</emission-unit>
+			</co2-emission>
 		</car>
 		<car>
-			<model>BMW 318</model>
-			<date_of_manufacture>2009-06</date_of_manufacture>
-			<price>6499</price>
-			<engine>1.8l</engine>
-			<hp>105</hp>
-			<fuel_type>diesel</fuel_type>
+			<model-name>BMW 318</model-name>
+			<date-of-manufacture>2009-06</date-of-manufacture>
+			<price>
+				<cost-number>6499</cost-number>
+				<cost-unit>€</cost-unit>
+			</price>
+			<engine-volume>
+				<engine-volume-number>1.8</engine-volume-number>
+				<engine-volume-unit-short>l</engine-volume-unit-short>
+			</engine-volume>
+			<engine-power>
+				<power-number>105</power-number>
+				<power-unit-short>hp</power-unit-short>
+			</engine-power>
+			<fuel-type>diesel</fuel-type>
 			<gearbox>manual</gearbox>
-			<mileage>260000km</mileage>
-			<body_type>sedan</body_type>
-			<number_of_doors>4/5</number_of_doors>
-			<steering_wheel>LHD</steering_wheel>
-			<mot_expiry>2022-12</mot_expiry>
-			<co2_emision>~123 g/km</co2_emision>
+			<mileage>
+				<mileage-number>260000</mileage-number>
+				<mileage-unit-short>km</mileage-unit-short>
+			</mileage>
+			<body-type>sedan</body-type>
+			<number-of-doors>4/5</number-of-doors>
+			<steering-wheel-side>LHD</steering-wheel-side>
+			<mot-expiry-date>2022-12</mot-expiry-date>
+			<co2-emission>
+				<emission-number>123</emission-number>
+				<emission-unit>g/km</emission-unit>
+			</co2-emission>
 		</car>
 		<car>
-			<model>BMW 530</model>
-			<date_of_manufacture>2011-10</date_of_manufacture>
-			<price>12000</price>
-			<engine>3.0l</engine>
-			<hp>170</hp>
-			<fuel_type>diesel</fuel_type>
+			<model-name>BMW 530</model-name>
+			<date-of-manufacture>2011-10</date-of-manufacture>
+			<price>
+				<cost-number>12000</cost-number>
+				<cost-unit>€</cost-unit>
+			</price>
+			<engine-volume>
+				<engine-volume-number>3.0</engine-volume-number>
+				<engine-volume-unit-short>l</engine-volume-unit-short>
+			</engine-volume>
+			<engine-power>
+				<power-number>170</power-number>
+				<power-unit-short>hp</power-unit-short>
+			</engine-power>
+			<fuel-type>diesel</fuel-type>
 			<gearbox>automatic</gearbox>
-			<mileage>266000km</mileage>
-			<body_type>sedan</body_type>
-			<number_of_doors>4/5</number_of_doors>
-			<steering_wheel>LHD</steering_wheel>
-			<mot_expiry>2023-01</mot_expiry>
-			<co2_emision>~139 g/km</co2_emision>
+			<mileage>
+				<mileage-number>266000</mileage-number>
+				<mileage-unit-short>km</mileage-unit-short>
+			</mileage>
+			<body-type>sedan</body-type>
+			<number-of-doors>4/5</number-of-doors>
+			<steering-wheel-side>LHD</steering-wheel-side>
+			<mot-expiry-date>2023-01</mot-expiry-date>
+			<co2-emission>
+				<emission-number>139</emission-number>
+				<emission-unit>g/km</emission-unit>
+			</co2-emission>
 		</car>
 		<car>
-			<model>BMW X5</model>
-			<date_of_manufacture>2009-09</date_of_manufacture>
-			<price>11500</price>
-			<engine>4.8l</engine>
-			<hp>355</hp>
-			<fuel_type>petrol</fuel_type>
+			<model-name>BMW X5</model-name>
+			<date-of-manufacture>2009-09</date-of-manufacture>
+			<price>
+				<cost-number>11500</cost-number>
+				<cost-unit>€</cost-unit>
+			</price>
+			<engine-volume>
+				<engine-volume-number>4.8</engine-volume-number>
+				<engine-volume-unit-short>l</engine-volume-unit-short>
+			</engine-volume>
+			<engine-power>
+				<power-number>355</power-number>
+				<power-unit-short>hp</power-unit-short>
+			</engine-power>
+			<fuel-type>petrol</fuel-type>
 			<gearbox>automatic</gearbox>
-			<mileage>165000km</mileage>
-			<body_type>SUV / off-road</body_type>
-			<number_of_doors>4/5</number_of_doors>
-			<steering_wheel>LHD</steering_wheel>
-			<mot_expiry>2022-08</mot_expiry>
-			<co2_emision>~299 g/km</co2_emision>
+			<mileage>
+				<mileage-number>165000</mileage-number>
+				<mileage-unit-short>km</mileage-unit-short>
+			</mileage>
+			<body-type>SUV / off-road</body-type>
+			<number-of-doors>4/5</number-of-doors>
+			<steering-wheel-side>LHD</steering-wheel-side>
+			<mot-expiry-date>2022-08</mot-expiry-date>
+			<co2-emission>
+				<emission-number>299</emission-number>
+				<emission-unit>g/km</emission-unit>
+			</co2-emission>
 		</car>
 		<car>
-			<model>BMW X6</model>
-			<date_of_manufacture>2012-02</date_of_manufacture>
-			<price>19600</price>
-			<engine>3.0l</engine>
-			<hp>306</hp>
-			<fuel_type>diesel</fuel_type>
+			<model-name>BMW X6</model-name>
+			<date-of-manufacture>2012-02</date-of-manufacture>
+			<price>
+				<cost-number>19600</cost-number>
+				<cost-unit>€</cost-unit>
+			</price>
+			<engine-volume>
+				<engine-volume-number>3.0</engine-volume-number>
+				<engine-volume-unit-short>l</engine-volume-unit-short>
+			</engine-volume>
+			<engine-power>
+				<power-number>306</power-number>
+				<power-unit-short>hp</power-unit-short>
+			</engine-power>
+			<fuel-type>diesel</fuel-type>
 			<gearbox>automatic</gearbox>
-			<mileage>286000km</mileage>
-			<body_type>SUV / off-road</body_type>
-			<number_of_doors>4/5</number_of_doors>
-			<steering_wheel>LHD</steering_wheel>
-			<mot_expiry>2023-02</mot_expiry>
-			<co2_emision>~198 g/km</co2_emision>
+			<mileage>
+				<mileage-number>286000</mileage-number>
+				<mileage-unit-short>km</mileage-unit-short>
+			</mileage>
+			<body-type>SUV / off-road</body-type>
+			<number-of-doors>4/5</number-of-doors>
+			<steering-wheel-side>LHD</steering-wheel-side>
+			<mot-expiry-date>2023-02</mot-expiry-date>
+			<co2-emission>
+				<emission-number>198</emission-number>
+				<emission-unit>g/km</emission-unit>
+			</co2-emission>
 		</car>
 		<car>
-			<model>BMW X2</model>
-			<date_of_manufacture>2019-03</date_of_manufacture>
-			<price>36900</price>
-			<engine>2.0l</engine>
-			<hp>190</hp>
-			<fuel_type>diesel</fuel_type>
+			<model-name>BMW X2</model-name>
+			<date-of-manufacture>2019-03</date-of-manufacture>
+			<price>
+				<cost-number>36900</cost-number>
+				<cost-unit>€</cost-unit>
+			</price>
+			<engine-volume>
+				<engine-volume-number>2.0</engine-volume-number>
+				<engine-volume-unit-short>l</engine-volume-unit-short>
+			</engine-volume>
+			<engine-power>
+				<power-number>190</power-number>
+				<power-unit-short>hp</power-unit-short>
+			</engine-power>
+			<fuel-type>diesel</fuel-type>
 			<gearbox>automatic</gearbox>
-			<mileage>23049km</mileage>
-			<body_type>SUV / off-road</body_type>
-			<number_of_doors>4/5</number_of_doors>
-			<steering_wheel>LHD</steering_wheel>
-			<mot_expiry>2022-01</mot_expiry>
-			<co2_emision>~157 g/km</co2_emision>
+			<mileage>
+				<mileage-number>23049</mileage-number>
+				<mileage-unit-short>km</mileage-unit-short>
+			</mileage>
+			<body-type>SUV / off-road</body-type>
+			<number-of-doors>4/5</number-of-doors>
+			<steering-wheel-side>LHD</steering-wheel-side>
+			<mot-expiry-date>2022-01</mot-expiry-date>
+			<co2-emission>
+				<emission-number>157</emission-number>
+				<emission-unit>g/km</emission-unit>
+			</co2-emission>
 		</car>
 		<car>
-			<model>BMW 530</model>
-			<date_of_manufacture>2007-08</date_of_manufacture>
-			<price>4990</price>
-			<engine>3.0l</engine>
-			<hp>197</hp>
-			<fuel_type>diesel</fuel_type>
+			<model-name>BMW 530</model-name>
+			<date-of-manufacture>2007-08</date-of-manufacture>
+			<price>
+				<cost-number>4990</cost-number>
+				<cost-unit>€</cost-unit>
+			</price>
+			<engine-volume>
+				<engine-volume-number>3.0</engine-volume-number>
+				<engine-volume-unit-short>l</engine-volume-unit-short>
+			</engine-volume>
+			<engine-power>
+				<power-number>197</power-number>
+				<power-unit-short>hp</power-unit-short>
+			</engine-power>
+			<fuel-type>diesel</fuel-type>
 			<gearbox>automatic</gearbox>
-			<mileage>318000km</mileage>
-			<body_type>wagon</body_type>
-			<number_of_doors>4/5</number_of_doors>
-			<steering_wheel>LHD</steering_wheel>
-			<mot_expiry>2021-09</mot_expiry>
-			<co2_emision>~158 g/km</co2_emision>
+			<mileage>
+				<mileage-number>318000</mileage-number>
+				<mileage-unit-short>km</mileage-unit-short>
+			</mileage>
+			<body-type>wagon</body-type>
+			<number-of-doors>4/5</number-of-doors>
+			<steering-wheel-side>LHD</steering-wheel-side>
+			<mot-expiry-date>2021-09</mot-expiry-date>
+			<co2-emission>
+				<emission-number>158</emission-number>
+				<emission-unit>g/km</emission-unit>
+			</co2-emission>
 		</car>
 		<car>
-			<model>BMW 528</model>
-			<date_of_manufacture>2014-03</date_of_manufacture>
-			<price>13999</price>
-			<engine>2.0l</engine>
-			<hp>245</hp>
-			<fuel_type>petrol</fuel_type>
+			<model-name>BMW 528</model-name>
+			<date-of-manufacture>2014-03</date-of-manufacture>
+			<price>
+				<cost-number>13999</cost-number>
+				<cost-unit>€</cost-unit>
+			</price>
+			<engine-volume>
+				<engine-volume-number>2.0</engine-volume-number>
+				<engine-volume-unit-short>l</engine-volume-unit-short>
+			</engine-volume>
+			<engine-power>
+				<power-number>245</power-number>
+				<power-unit-short>hp</power-unit-short>
+			</engine-power>
+			<fuel-type>petrol</fuel-type>
 			<gearbox>automatic</gearbox>
-			<mileage>110049km</mileage>
-			<body_type>sedan</body_type>
-			<number_of_doors>4/5</number_of_doors>
-			<steering_wheel>LHD</steering_wheel>
-			<mot_expiry>2022-05</mot_expiry>
-			<co2_emision>~142 g/km</co2_emision>
+			<mileage>
+				<mileage-number>110049</mileage-number>
+				<mileage-unit-short>km</mileage-unit-short>
+			</mileage>
+			<body-type>sedan</body-type>
+			<number-of-doors>4/5</number-of-doors>
+			<steering-wheel-side>LHD</steering-wheel-side>
+			<mot-expiry-date>2022-05</mot-expiry-date>
+			<co2-emission>
+				<emission-number>142</emission-number>
+				<emission-unit>g/km</emission-unit>
+			</co2-emission>
 		</car>
 	</vehicles>
 </company>
