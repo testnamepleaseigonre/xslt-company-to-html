@@ -17,10 +17,19 @@ import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
 /**
- *
+ * Class which represents  XML transformation to HTML.
+ * 
  * @author valde
  */
 public class Transform {
+    
+    /**
+     * Main method dedicated to transform XML file to HTML using XSL.
+     * 
+     * @param args
+     * @throws TransformerConfigurationException
+     * @throws TransformerException 
+     */
     public static void main(String args[]) throws TransformerConfigurationException, TransformerException{
         Source xslt = new StreamSource(new File("company.xsl"));
         Source xml = new StreamSource(new File("company.xml"));
